@@ -1,0 +1,33 @@
+#Task 
+#Read an integer . For all non-negative integers , print . See the sample for details.
+
+#Input Format
+
+#The first and only line contains the integer, .
+
+#Constraints
+# 1 <= N <= 20
+
+#Output Format
+
+#Print  lines, on = int(input()) # Take input from user
+ne corresponding to each .
+
+#Sample Input 0
+#5
+
+#Sample Output 0
+#0
+#1
+#4
+#9
+#16
+
+#The code is here
+
+n = int(input()) # Take input from user
+
+square = 0
+for i in range(n):
+    print(i*i)
+    
